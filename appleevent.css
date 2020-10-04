@@ -13,8 +13,15 @@
     border-radius: 10px;
 }
 .radio-buttons{
-    text-align: left;
-}
+    text-align: left;}
+
+.center {
+    margin: auto;
+    width: 15%;
+    padding: 0px 15px 15px;
+    
+  }
+
 .application {
     text-align: center;
     padding: 4px;
