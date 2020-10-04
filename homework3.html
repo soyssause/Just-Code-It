@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Apple Special Event</title>
+    <link href="appleevent.css" rel="stylesheet">
+</head>
+
+<body>
+    <p>
+    <div class="application">Apply for participation in Apple Event 2020 </div>
+    </p>
+    <form method="post" class="form">
+        <fieldset class="frame">
+            <legend> Application form </legend>
+            <p>
+                <input type="text" required name="fio" class="textfield" placeholder="Your name">
+            </p>
+            <p>
+                <input type="text" name="name" class="textfield" placeholder="Your surname">
+            </p>
+            <p>
+                <input type="date" name="date" class="textfield">
+            </p>
+            <p>
+                I'm interested in
+                <br>
+                <br>
+                <input type="radio" name="device" value="iphone">iPhone 12
+                <br>
+                <input type="radio" name="device" value="watch" checked>Apple Watch 6
+                <br>
+                <input type="radio" name="device" value="ipad" checked>iPad Air
+            </p>
+            <select name="country" class="textfield">
+                <option disabled selected> Choose the country </option>
+                <option> the USA </option>
+                <option> the UK </option>
+                <option> Belarus </option>
+                <option> Russia </option>
+            </select>
+            </p>
+            <p>
+                <input type="email" required name="mail" class="textfield" placeholder="Your email">
+            </p>
+            <p>
+                <input type="password" required name="password" class="textfield" placeholder="Your password">
+            </p>
+            <p>
+                <input type="password" required name="password" class="textfield" placeholder="Confirm your password">
+            </p>
+            <p>
+            <div class="file"> Download your invitation ticket</div>
+            <br>
+            <input type="file">
+            </p>
+            <p>
+                <input type="checkbox" required name="privacy_policy"> *I agree with the privacy policy
+            </p>
+            <p>
+                <input type="checkbox" name="privacy_policy"> Inform me about news on e-mail
+            </p>
+            <p>
+                <button type="reset"> Reset </button> <button type="submit"> Submit </button>
+            </p>
+            Registering you agree with the <a href="http://0">User Agreement</a>
+        </fieldset>
+    </form>
+</body>
