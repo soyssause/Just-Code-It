@@ -1,5 +1,6 @@
 .form {
     text-align: center;
+    justify-content: center;
 }
 
 .frame {
@@ -38,10 +39,12 @@
 }
 
 .file {
+    align-self: center;
     padding: 4px;
     width: 40%;
-    margin-left: 240px;
-    margin-top: 10px;
+    /* margin-left: 240px; */
+    /* margin-top: 10px; */
+    margin: auto;
     font-size: 20px;
     border-radius: 8px;
     background-color: #f3dddd;
