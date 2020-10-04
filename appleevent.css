@@ -1,26 +1,29 @@
-.form { 
+.form {
     text-align: center;
 }
+
 .frame {
     border: 1px solid #ccc;
     width: 50%;
     margin-left: 400px;
 }
+
 .textfield {
     border: 1px solid #ccc;
     padding: 10px;
     width: 20%;
     border-radius: 10px;
 }
-.radio-buttons{
-    text-align: left;}
+
+.radio-buttons {
+    text-align: left;
+}
 
 .center {
     margin: auto;
     width: 15%;
     padding: 0px 15px 15px;
-    
-  }
+}
 
 .application {
     text-align: center;
@@ -28,11 +31,12 @@
     margin: -8px;
     margin-top: 40px;
     margin-bottom: 50px;
-    background: #c4c2c2; 
-    color: #FFFFFF; 
+    background: #c4c2c2;
+    color: #FFFFFF;
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
 }
+
 .file {
     padding: 4px;
     width: 40%;
@@ -40,5 +44,5 @@
     margin-top: 10px;
     font-size: 20px;
     border-radius: 8px;
-    background-color: #f3dddd; 
+    background-color: #f3dddd;
 }
