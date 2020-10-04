@@ -1,4 +1,3 @@
-body 
 .form { 
     text-align: center;
 }
@@ -12,6 +11,9 @@ body
     padding: 10px;
     width: 20%;
     border-radius: 10px;
+}
+.radio-buttons{
+    text-align: left;
 }
 .application {
     text-align: center;
